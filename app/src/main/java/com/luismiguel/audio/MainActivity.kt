@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity(), MediaPlayer.OnPreparedListener {
     fun grabar(){
         val intent = Intent(MediaStore.Audio.Media.RECORD_SOUND_ACTION)
         if (intent.resolveActivity(getPackageManager()) != null) {
-            startActivityForResult(intent, 1);
+            startActivityForResult(intent, CODIGO_GRABAR);
         } else {
             Toast.makeText(this, "No sound record application found", Toast.LENGTH_SHORT).show();
         }
