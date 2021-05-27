@@ -8,6 +8,15 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/btnReproducirSonido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reproducir sonido raw"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="131dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
         android:id="@+id/btnGrabar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
